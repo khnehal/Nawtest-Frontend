@@ -1,0 +1,42 @@
+{
+    "name": "natwest-frontend-code-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "stub-api": "node stub-api/index.js",
+        "webpack-serve": "webpack serve",
+        "start": "run-p stub-api webpack-serve",
+        "test": "echo \"Error: no test specified && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "bootstrap": "^4.3.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.1",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "core-js": "^3.15.2",
+        "cors": "^2.8.5",
+        "css-loader": "^6.2.0",
+        "dayjs": "^1.10.6",
+        "express": "^4.17.1",
+        "faker": "^5.5.3",
+        "html-webpack-plugin": "^5.3.2",
+        "npm-run-all": "^4.1.5",
+        "randomstring": "^1.2.1",
+        "sass": "^1.35.2",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.2.1",
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
